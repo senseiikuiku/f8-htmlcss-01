@@ -61,7 +61,7 @@ a {
     background: #e6f0ff;
     padding-top: 26px;
     position: sticky;
-    top: -26px;
+    top: -5px;
     z-index: 1;
 }
 
@@ -318,7 +318,8 @@ a {
 }
 
 .featured .list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-top: 70px;
 }
@@ -590,7 +591,7 @@ a {
 }
 
 .footer .row-top {
-    gap: 185px;
+    column-gap: 185px;
 }
 
 .footer .heading {
